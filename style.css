@@ -1,0 +1,300 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #ffffff;
+  color: #000;
+  font-size: 16px;
+  font-family: arial;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+/*navegacion*/
+
+.nav-main {
+  font-size: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 20px 0;
+}
+
+.nav-brand {
+  width: 200px;
+}
+
+/*para dar espacio entre las etiquetas li*/
+.nav-main ul {
+  display: flex;
+  justify-content: right;
+}
+
+.nav-main ul li {
+  padding: 10px;
+}
+
+.nav-main ul li a {
+  padding: 2px;
+}
+
+.nav-main ul li a:hover {
+  border-bottom: 2px solid #ffffff;
+}
+
+.nav-main ul.nav-menu {
+  flex: 1;
+  margin-left: 20px;
+}
+/*
+.menu-btn {
+  position: absolute;
+  cursor: pointer;
+  top: 15px;
+  right: 30px;
+  z-index: 2;
+  font-size: 1rem;
+  display: none;
+}*/
+
+.btn-app {
+  justify-content: flex-start;
+  width: 10%;
+  padding: 5px 20px;
+  border-radius: 5px;
+  margin: -5px 50px;
+  text-align: center;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+/*showcase*/
+.showcase {
+  background-color: #58cac0;
+  height: 800px;
+}
+
+.showcase h2 {
+  font-size: 12px;
+  color: #ffffff;
+  padding: 40px 80px;
+  margin: 0 15px;
+}
+
+.showcase p {
+  font-size: 12px;
+  color: #ffffff;
+  padding: 10px 80px;
+  margin: 0 15px;
+}
+
+.tar-img {
+  display: flex;
+  height: 100%;
+}
+
+/**tarjeta cotizacion*/
+.tarjeta-cot {
+  background-color: #ffffff;
+  width: 20.5%;
+  height: 45%;
+  margin: 60px 200px;
+}
+
+.tarjeta-cot h1 {
+  color: #4abfaf;
+  font-size: 18px;
+  text-align: center;
+  padding: 0 20px;
+  margin: 10px 10px;
+}
+
+.tarjeta-cot h2 {
+  color: #4abfaf;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+}
+
+.input-one {
+  display: flex;
+  height: 20x;
+  margin: 20px 0;
+}
+
+.input-two {
+  display: flex;
+  height: 20px;
+  margin: 20px 0;
+}
+
+.input-tree {
+  height: 30px;
+}
+/*INPUT*/
+.input-field {
+  position: relative;
+  padding: 0 15px;
+}
+
+.input-field input {
+  width: 100px;
+  height: 20px;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 10px 10px;
+  background: transparent;
+  outline: none;
+  margin: 0px 10px;
+  border: none;
+  border-bottom: 0.5px solid #000;
+}
+
+.input-field label {
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  transform: translateY(-50%);
+  color: #8b8c8d;
+  font-size: 12px;
+  pointer-events: none;
+}
+input:valid ~ label {
+  top: -10px;
+  left: 15px;
+  font-size: 12px;
+}
+
+.input-tree .input-field {
+  position: relative;
+  padding: 0 15px;
+  margin: 20px 0;
+}
+
+.btn-cot {
+  justify-content: flex-start;
+  background: #58cac0;
+  color: #ffffff;
+  width: 70%;
+  padding: 5px 20px;
+  border-radius: 5px;
+  margin: -5px 50px;
+  text-align: center;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.btn-cot:hover {
+  background-color: #58cac0;
+  box-shadow: 0 0 15px #58cac0;
+}
+/*slider*/
+.slider {
+  height: 55%;
+  width: 40%;
+  background: #ffffff;
+  margin: 40px 10px;
+  padding: 20px 20px;
+  border-radius: 5px;
+}
+
+.slider img {
+  width: 630px;
+  height: 370px;
+}
+/*Seperador*/
+.new-cars {
+  height: 3000px;
+  width: 90%;
+  background-color: #ffffff;
+  margin: -20px 40px;
+  color: #394556;
+  border-radius: 5px;
+}
+
+.new-cars h1 {
+  text-align: center;
+  padding: 20px;
+  font-size: 35px;
+}
+.nav-cars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-cars img {
+  width: 20%;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  display: block;
+}
+
+.nav-cars h3 {
+  font-size: 22;
+  text-align: center;
+}
+
+.nav-cars p {
+  font-size: 14px;
+  text-align: center;
+  margin: 10px 0;
+  color: #acacac;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Cars*/
+.cars-medium h1 {
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
+/*Peronas*/
+.personas {
+  display: flex;
+  height: 100%;
+  width: 115%;
+}
+
+.logo2 {
+  display: flex;
+  margin: 20px 200px;
+  padding: 0 50px;
+  text-align: left;
+}
+
+.logo2 img {
+  height: 60px;
+  width: 60px;
+}
+
+.logo2 p {
+  height: 5%;
+  width: 100%;
+  margin: 15px;
+  font-size: 14px;
+  text-align: justify;
+}
+
+.btn-per {
+  display: block;
+  position: absolute;
+}
